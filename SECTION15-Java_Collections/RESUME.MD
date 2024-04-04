@@ -6,7 +6,7 @@ Les collections en Java fournissent des structures de données pour stocker et m
 
 Les principales interfaces de base dans le framework de collections Java sont :
 
-- List : Collection ordonnée qui permet les doublons.
+- # List : Collection ordonnée qui permet les doublons.
 
 ```bash
 List<String> liste = new ArrayList<>();
@@ -14,13 +14,29 @@ liste.add("Java");
 liste.add("Python");
 liste.add("C++");
 System.out.println(liste); // Output: [Java, Python, C++]
-
 ```
 
-Set : Collection qui ne permet pas de doublons.
-Map : Structure clé-valeur.
+- # Set : Collection qui ne permet pas de doublons.
 
-Implémentations : Chaque interface a plusieurs implémentations. Par exemple :
+```bash
+Set<String> ensemble = new HashSet<>();
+ensemble.add("Rouge");
+ensemble.add("Bleu");
+ensemble.add("Rouge");
+System.out.println(ensemble); // Output: [Bleu, Rouge]
+```
+
+- # Map : Structure clé-valeur.
+
+```bash
+Map<String, Integer> map = new HashMap<>();
+map.put("Java", 1);
+map.put("Python", 2);
+map.put("C++", 3);
+System.out.println(map.get("Java")); // Output: 1
+```
+
+## Implémentations : Chaque interface a plusieurs implémentations. Par exemple :
 
 ArrayList, LinkedList : Implémentations de List.
 HashSet, TreeSet : Implémentations de Set.
