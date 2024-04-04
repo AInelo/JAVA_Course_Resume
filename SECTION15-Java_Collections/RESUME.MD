@@ -38,15 +38,46 @@ System.out.println(map.get("Java")); // Output: 1
 
 ## Implémentations : Chaque interface a plusieurs implémentations.
 
-ArrayList, LinkedList : Implémentations de List.
-HashSet, TreeSet : Implémentations de Set.
-HashMap, TreeMap : Implémentations de Map.
-Méthodes Principales : Les collections offrent de nombreuses méthodes pour ajouter, supprimer, rechercher et parcourir des éléments. Par exemple :
+```bash
+List<String> liste = new ArrayList<>();
+liste.add("Java");
+liste.add("Python");
+
+```
 
 ```bash
-add() pour ajouter des éléments.
-remove() pour supprimer des éléments.
-contains() pour vérifier si un élément est présent.
-iterator() pour parcourir les éléments.
-Itérateurs : Les itérateurs sont utilisés pour parcourir les éléments d'une collection de manière séquentielle.
+Set<String> ensemble = new HashSet<>();
+ensemble.add("Rouge");
+ensemble.add("Bleu");
+
+```
+
+```bash
+Map<String, Integer> map = new HashMap<>();
+map.put("Java", 1);
+map.put("Python", 2);
+
+```
+
+## Méthodes Principales :
+
+```bash
+add() : Ajoute un élément à la collection.
+remove() : Supprime un élément de la collection.
+contains() : Vérifie si un élément est présent dans la collection.
+iterator() : Permet de parcourir les éléments de la collection.
+```
+
+## Classes utilitaires :
+
+La classe Collections fournit des méthodes utilitaires telles que sort(), reverse(), shuffle(), etc.
+
+```bash
+List<Integer> numbers = new ArrayList<>();
+numbers.add(3);
+numbers.add(1);
+numbers.add(2);
+Collections.sort(numbers);
+System.out.println(numbers); // Output: [1, 2, 3]
+
 ```
