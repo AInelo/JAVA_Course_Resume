@@ -79,5 +79,4 @@ numbers.add(1);
 numbers.add(2);
 Collections.sort(numbers);
 System.out.println(numbers); // Output: [1, 2, 3]
-
 ```
