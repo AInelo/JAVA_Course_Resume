@@ -6,7 +6,7 @@ Les collections en Java fournissent des structures de données pour stocker et m
 
 Les principales interfaces de base dans le framework de collections Java sont :
 
-- # List : Collection ordonnée qui permet les doublons.
+- ### List : Collection ordonnée qui permet les doublons.
 
 ```bash
 List<String> liste = new ArrayList<>();
@@ -16,7 +16,7 @@ liste.add("C++");
 System.out.println(liste); // Output: [Java, Python, C++]
 ```
 
-- # Set : Collection qui ne permet pas de doublons.
+- ### Set : Collection qui ne permet pas de doublons.
 
 ```bash
 Set<String> ensemble = new HashSet<>();
@@ -26,7 +26,7 @@ ensemble.add("Rouge");
 System.out.println(ensemble); // Output: [Bleu, Rouge]
 ```
 
-- # Map : Structure clé-valeur.
+- ### Map : Structure clé-valeur.
 
 ```bash
 Map<String, Integer> map = new HashMap<>();
