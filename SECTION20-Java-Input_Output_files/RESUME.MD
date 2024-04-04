@@ -25,7 +25,7 @@ public class LectureFichier {
 }
 ```
 
-Dans cet exemple, nous importons les classes BufferedReader et FileReader depuis le package java.io. Nous utilisons BufferedReader pour lire les données de manière efficace depuis un fichier texte. FileReader est utilisé pour créer un flux de lecture de fichier. Nous utilisons une boucle while pour lire chaque ligne du fichier jusqu'à la fin, en utilisant la méthode readLine() de BufferedReader. Enfin, nous fermons le lecteur à l'aide de la méthode close() pour libérer les ressources.
+Dans cet exemple, j'importe les classes BufferedReader et FileReader depuis le package java.io. J'utilise BufferedReader pour lire les données de manière efficace depuis un fichier texte. FileReader est utilisé pour créer un flux de lecture de fichier. J'utilise une boucle while pour lire chaque ligne du fichier jusqu'à la fin, en utilisant la méthode readLine() de BufferedReader. Enfin, je ferme le lecteur à l'aide de la méthode close() pour libérer les ressources.
 
 2. ## Écriture dans des fichiers :
 
@@ -49,7 +49,7 @@ public class EcritureFichier {
 
 ```
 
-Nous importons les classes BufferedWriter et FileWriter depuis le package java.io. BufferedWriter est utilisé pour écrire les données de manière efficace dans un fichier texte. FileWriter est utilisé pour créer un flux d'écriture de fichier. Nous utilisons la méthode write() de BufferedWriter pour écrire du contenu dans le fichier. La méthode newLine() est utilisée pour ajouter une nouvelle ligne. Enfin, nous fermons le writer à l'aide de la méthode close() pour libérer les ressources.
+Dans cet exemple, je importe les classes BufferedWriter et FileWriter depuis le package java.io. J'utilise BufferedWriter pour écrire les données de manière efficace dans un fichier texte. FileWriter est utilisé pour créer un flux d'écriture de fichier. J'utilise la méthode write() de BufferedWriter pour écrire du contenu dans le fichier. La méthode newLine() est utilisée pour ajouter une nouvelle ligne. Enfin, je ferme le writer à l'aide de la méthode close() pour libérer les ressources.
 
 3. ## Manipulation de fichiers :
 
@@ -83,4 +83,4 @@ public class ManipulationFichiers {
 
 ```
 
-Nous importons la classe File depuis le package java.io. File est utilisé pour représenter les chemins de fichiers et de répertoires. Nous utilisons la méthode createNewFile() pour créer un nouveau fichier. La méthode retourne true si le fichier est créé avec succès, sinon false si le fichier existe déjà. La méthode delete() est utilisée pour supprimer un fichier. Elle retourne true si le fichier est supprimé avec succès, sinon false.
+Dans cet exemple, je importe la classe File depuis le package java.io. File est employée pour représenter les chemins des fichiers et des répertoires. Pour créer un nouveau fichier, nous utilisons la méthode createNewFile(). Si la création réussit, cette méthode renvoie true ; sinon, si le fichier existe déjà, elle renvoie false. Pour supprimer un fichier, nous utilisons la méthode delete(). Si la suppression réussit, cette méthode renvoie true ; sinon, elle renvoie false.
