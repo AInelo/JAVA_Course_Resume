@@ -36,7 +36,7 @@ map.put("C++", 3);
 System.out.println(map.get("Java")); // Output: 1
 ```
 
-## Implémentations : Chaque interface a plusieurs implémentations. Par exemple :
+## Implémentations : Chaque interface a plusieurs implémentations.
 
 ArrayList, LinkedList : Implémentations de List.
 HashSet, TreeSet : Implémentations de Set.
